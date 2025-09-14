@@ -15,6 +15,7 @@ DEFAULT_LOOKBACK = 60
 
 st.set_page_config(page_title="Prediksi Harga LSTM", layout="wide")
 st.title("Prediksi Harga LSTM")
+st.info("Silakan unduh dataset dari GitHub (ikon kanan atas) sebelum melakukan upload di aplikasi ini.")
 
 # -----------------------------------------
 # Load model dan scaler otomatis
